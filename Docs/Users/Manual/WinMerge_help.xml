@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "./build/dtd/docbookx.dtd" []>
+<book id="index">
+  <bookinfo>
+    <title>WinMerge <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="replaceables.xml" xpointer="element(version)"/> Help</title>
+    <productname>WinMerge</productname>
+    <releaseinfo>
+      <emphasis>Revision 1.0</emphasis>
+    </releaseinfo>
+    <copyright>
+      <year>2004-2011</year>
+      <holder>Thingamahoochie Software</holder>
+    </copyright>
+    <copyright>
+      <year>2004-2011</year>
+      <holder>WinMerge Team</holder>
+    </copyright>
+    <legalnotice>
+      <para>Information in this document is subject to change without notice.
+      Other products and companies referred to herein are trademarks or
+      registered trademarks of their respective companies or mark
+      holders.</para>
+    </legalnotice>
+    <authorgroup>
+      <author>
+        <surname>Varis</surname>
+        <firstname>Kimmo</firstname>
+      </author>
+      <author>
+        <surname>Bradford</surname>
+        <firstname>Denis</firstname>
+      </author>
+      <author>
+        <surname>Grimm</surname>
+        <firstname>Dean</firstname>
+      </author>
+      <author>
+        <surname>Ganier</surname>
+        <firstname>Laurent</firstname>
+      </author>
+      <author>
+        <surname>Gerundt</surname>
+        <firstname>Tim</firstname>
+      </author>
+      <author>
+        <surname>Rapp</surname>
+        <firstname>Perry</firstname>
+      </author>
+      <author>
+        <surname>Neubeck</surname>
+        <firstname>Jochen</firstname>
+      </author>
+      <author>
+        <contrib>and all others who helped with this.</contrib>
+      </author>
+    </authorgroup>
+  </bookinfo>
+<!-- Note to maintainers:
+  Not all doc files are included in this file. There are also fragment files 
+  included at the topic level. For example, several files include elements from 
+  replaceables.xml. Other fragment file is select-unpacker.xml.
+  Please do not delete xml files in this directory unless you know for sure 
+  that they are not used. -->  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="About_Doc.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Quick_start.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Introduction.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Install.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Intro_diffs.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Open_paths.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Compare_dirs.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Compare_files.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Compare_bin.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Configuration.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Locales.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="File_transforms.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Filters.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Version_control.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Command_line.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Faq.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Shortcut_keys.xml"/>
+  <index id="word_index"/>
+</book>

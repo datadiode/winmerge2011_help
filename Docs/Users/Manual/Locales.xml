@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<article id="Locales">
+  <title>Locale support<indexterm>
+      <primary>localizing WinMerge</primary>
+    </indexterm></title>
+  <para>The WinMerge user interface is in English by default, but you can
+  localize your installation to other languages for which translations have been
+  contributed. Localizing WinMerge changes text strings that are displayed in
+  the interface, including menus, dialogs, tooltips, and messages, to the
+  language you choose.</para>
+  <para>Note that localization does not extend beyond the translation of
+  strings. For example, it does not affect how numbers are divided or how words
+  are alphabetized. (Those issues should be addressed in the conventional
+  Windows manner by using the Regional settings in the Control Panel.)</para>
+  <section id="Locales_changing">
+    <title>Changing the WinMerge interface language</title>
+    <para>You can change the localization of WinMerge as follows:</para>
+    <orderedlist>
+      <listitem>
+        <simpara>Run WinMerge.</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Select <guimenuitem>Language</guimenuitem> from the <guimenu>View</guimenu> menu.</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Select your language and click <guibutton>OK</guibutton>.</simpara>
+      </listitem>
+    </orderedlist>
+    <para>The language of the WinMerge user interface is instantly
+    updated.</para>
+  </section>
+  <section>
+    <title>Available WinMerge localizations<indexterm>
+        <primary>localizations, available</primary>
+      </indexterm></title>
+    <para>WinMerge localizations contributed to date include the following
+    translations:</para>
+    <itemizedlist>
+      <listitem>
+        <simpara>Bulgarian</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Catalan</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Chinese (both Simplified and Traditional)</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Croatian</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Czech</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Danish</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Dutch</simpara>
+      </listitem>
+      <listitem>
+        <simpara>French</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Galician</simpara>
+      </listitem>
+      <listitem>
+        <simpara>German</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Greek</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Hungarian</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Italian</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Japanese</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Korean</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Norwegian</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Polish</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Portuguese</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Portuguese (Brazilian)</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Romanian</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Russian</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Slovak</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Slovenian</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Spanish</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Swedish</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Turkish</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Ukrainian</simpara>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section>
+    <title>Reporting errors in translation<indexterm>
+        <primary>translations, reporting errors</primary>
+      </indexterm></title>
+    <para>Please submit any errors you find in translations as bugs to our
+    <ulink url="http://sourceforge.net/tracker/?group_id=13216&amp;atid=113216">bug-list</ulink>.
+    It would be great if you also provide a corrected version of the translated
+    text.</para>
+  </section>
+  <section>
+    <title>Submitting a new translation<indexterm>
+        <primary>submitting translations</primary>
+      </indexterm></title>
+    <para>If you would like to add your language to the list, read the <ulink url="http://winmerge.org/translations/">Translations</ulink> documentation
+    in the WinMerge Web site to learn how. All the translations are incomplete,
+    so your help improving them would be appreciated. Translating (or improving
+    translation) does not require you to have all the compile tools or to know
+    about WinMerge internals, just to follow the instructions in the preceding
+    link. And if you have problems, ask for help from us in one of the <ulink url="http://forums.winmerge.org/">WinMerge forums</ulink>.</para>
+  </section>
+</article>
