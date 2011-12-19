@@ -1229,17 +1229,17 @@
     </section>
 
     <section>
-      <title>Filter Folder<indexterm>
-          <primary>Filters folders</primary>
+      <title>Supplement folder<indexterm>
+          <primary>Supplement folder</primary>
 
           <secondary>specifying default private folder</secondary>
         </indexterm></title>
 
-      <para>Use this field to specify your own private folder for file filters.
-      By default this folder is your user profile directory (for example,
+      <para>Use this field to specify your own private folder for supplementary
+	  files like file filters and file transform scriptlets.
+      By default this folder is beneath your user profile directory (for example,
       <filename>My Documents</filename> on Windows XP, or
-      <filename>Documents</filename> on Windows Vista). When you create a file
-      filter, it is automatically added to this folder.</para>
+      <filename>Documents</filename> on Windows Vista).</para>
     </section>
 
     <section>
