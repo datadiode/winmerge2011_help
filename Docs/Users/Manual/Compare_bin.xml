@@ -12,5 +12,9 @@
 
   <para>WinMerge can detect whether files are in text or binary format. When you
   launch a file compare operation on two binary files, WinMerge opens each file
-  in the binary file editor.</para>
+  in the binary file editor.
+  For the binary file editor to be operational, WinMerge requires installation
+  of <ulink url="http://frhed.sourceforge.net">Frhed 1.6.0</ulink> or later. 
+  Be sure to run the Frhed setup to get things registered the proper way.
+  Unzipping Frhed binaries doesn't suffice.</para>
 </article>
