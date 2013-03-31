@@ -12,7 +12,7 @@
       <holder>Thingamahoochie Software</holder>
     </copyright>
     <copyright>
-      <year>2004-2012</year>
+      <year>2004-2013</year>
       <holder>WinMerge Team</holder>
     </copyright>
     <legalnotice>
@@ -71,7 +71,7 @@
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Compare_bin.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Configuration.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Locales.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="File_transforms.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Plugins.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Filters.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Version_control.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Command_line.xml"/>
