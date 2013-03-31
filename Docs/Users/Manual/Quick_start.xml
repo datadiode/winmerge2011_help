@@ -186,6 +186,12 @@
         files and folders it finds in one view. If you disable the option, only
         the current folder is compared, and subfolders are listed by name
         (without their contents), so you can browse into them.</para>
+        <para>If you have folder trees containing files which can be uniquely
+        identified by their names, but are located in different subfolders, then
+        you may want to instruct WinMerge to ignore the folder structure. To
+        accomplish this, repeat clicking the <guilabel>Include Subfolders</guilabel>
+        check box until a respective annotation shows up.
+        </para>
       </listitem>
     </orderedlist>
     <section>
