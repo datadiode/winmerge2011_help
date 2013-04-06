@@ -14,6 +14,10 @@ pre,code,tt {
   font-size: 100%;
 }
 
+code.function {
+  white-space: nowrap;
+}
+
 /* Default link style */
 a:link { color:#3366CC; text-decoration:underline; }
 a:visited { color:#003399; text-decoration:underline; }

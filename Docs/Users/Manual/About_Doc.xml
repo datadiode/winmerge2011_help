@@ -120,7 +120,7 @@
       </varlistentry>
       <varlistentry>
         <term>
-          <xref linkend="File_transforms"/>
+          <xref linkend="Plugins"/>
         </term>
         <listitem>
           <para>Describes the optional, extra features that you can add to
