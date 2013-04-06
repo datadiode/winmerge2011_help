@@ -592,6 +592,15 @@ Pekka Himanen</screen></para>
    with JavaScript&apos;s <function>replace()</function> method, but execute faster than the more general forms of line filters.
    </para>
         <example>
+          <title>A line filter to ignore leading line numbers</title>
+          <screen>regexp:/^([nN]?\d+)/:*.nc</screen>
+          <para>
+      This rule resembles the functionality of WinMerge&#160;2&apos;s <filename>IgnoreLeadingLineNumbers.dll</filename> plugin.
+      The <code>:*.nc</code> that follows the regular expression indicates that the rule only applies to <filename>.nc</filename> files.
+      You can specify multiple filename patterns by separating them with semicolons. Omit this part to have the rule applied to all files.
+      </para>
+        </example>
+        <example>
           <title>A line filter to ignore differences on lines starting with specific keywords</title>
           <screen>regexp:/(^\s*)PERFORMER(\s.*)|(^\s*)TITLE(\s.*)|(^\s*)FILE(\s.*)/</screen>
           <para>
