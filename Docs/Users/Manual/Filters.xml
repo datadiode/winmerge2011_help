@@ -627,9 +627,8 @@ Pekka Himanen</screen></para>
       Beware that the length of the pattern to the right of the injection operator must not exceed the length of the shortest possible submatch
       captured by the regular expression. So if <code>SuperMode</code> had instead been renamed to <code>WonderFlag</code>,
       then <code>WonderFlag</code> would make up the regular expression to search for, while <code>SuperMode</code> would appear to the
-      right of the injection operator:
+      right of the injection operator:</para>
       <screen>regexp:/\b(WonderFlag)\b/g&lt;SuperMode</screen>
-      </para>
         </example>
       </section>
       <section id="Filters_PermutiveLineFilters">
