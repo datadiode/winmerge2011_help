@@ -695,9 +695,9 @@
           <listitem>
             <para>Slimmed-down comparison of files by content. This method uses
             streamlined file comparison code. Its drawback is that line filters
-			are not applied when comparing. For example, this method sees file
-			as different even if line filters are set to ignore all differences
-			in the files.</para>
+            are not applied when comparing. For example, this method sees file
+            as different even if line filters are set to ignore all differences
+            in the files.</para>
           </listitem>
         </varlistentry>
 
