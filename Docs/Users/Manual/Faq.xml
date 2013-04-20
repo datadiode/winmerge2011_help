@@ -139,20 +139,13 @@
         <answer>
           <para>OpenOffice files are archives. To be able to open them in
           WinMerge, you have to configure archive support:</para>
-          <itemizedlist>
-            <listitem>
-              <para>Install archive support, as described in <xref linkend="Installing_archive_support"/>.</para>
-            </listitem>
-            <listitem>
-              <para>In WinMerge, click the <guibutton>Options</guibutton> button
+              <para>Click the <guibutton>Options</guibutton> button
               (or click <menuchoice>
                   <guimenu>Edit</guimenu>
                   <guimenuitem>Options</guimenuitem>
                 </menuchoice>). In the Archive Support page, enable the
               <guilabel>Detect archive type from file signature</guilabel>
               option</para>
-            </listitem>
-          </itemizedlist>
         </answer>
       </qandaentry>
       <qandaentry>
@@ -333,32 +326,6 @@
     <qandaset>
       <qandaentry>
         <question>
-          <para>I installed 7-Zip but archive support does not work.</para>
-        </question>
-        <answer>
-          <para>You might have one of these problems:</para>
-          <itemizedlist>
-            <listitem>
-              <para>Do you have the plugin installed, and does the plugin
-              version match the 7-Zip version? If not, see the instructions for
-              <xref linkend="Installing_archive_support"/> in the installation
-              topic.</para>
-            </listitem>
-            <listitem>
-              <para>If the error is something like: <emphasis>
-                  <errortext>7-zip x.xx missing / Plugin present</errortext>
-                </emphasis>, then you
-              probably installed 7-Zip using the MSI installer. Some 7-Zip MSI
-              installers do not install all the files that WinMerge needs
-              (specifically, <filename>7zip_pad.xml</filename> in the 7-Zip
-              program folder). Download and run the <filename>EXE</filename>
-              version of the 7-Zip installer.</para>
-            </listitem>
-          </itemizedlist>
-        </answer>
-      </qandaentry>
-      <qandaentry>
-        <question>
           <para>How can I open the Perry-style patch files that WinMerge
           developers use when submitting patches?<indexterm>
               <primary>patch files, Perry-style</primary>
@@ -371,15 +338,6 @@
           selecting the zip file for both the left and right sides. WinMerge
           opens the contents of the zip file in a Folder Compare window,
           comparing the original and changed files.</para>
-        </answer>
-      </qandaentry>
-      <qandaentry>
-        <question>
-          <para>I do not want to install 7-zip. Can archive support use other
-          archive tools (like WinZip or WinRar)?</para>
-        </question>
-        <answer>
-          <para>Unfortunately WinMerge can only use 7-zip.</para>
         </answer>
       </qandaentry>
       <qandaentry>

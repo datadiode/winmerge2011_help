@@ -1081,24 +1081,8 @@
         <secondary>configuring support after installation</secondary>
       </indexterm></title>
 
-    <para>This page contains options for configuring Winzip archive support
+    <para>This page contains options for configuring archive support
     using 7-Zip.</para>
-
-    <section>
-      <title>Download 7-zip Plugin<indexterm>
-          <primary>7-Zip archives</primary>
-
-          <secondary>configuring support after installation</secondary>
-        </indexterm></title>
-
-      <para>If WinZip is already installed on your system, WinMerge
-      automatically detects it, and you don't need to configure anything here.
-      Otherwise, you can click this link to open the WinMerge downloads page in
-      your Web browser. There, you can download the 7-Zip Plugin installer (and
-      other WinMerge files). To install the plugin, see <xref
-      linkend="Installing_archive_support" />. Remember to close WinMerge before
-      running the 7-Zip installer.</para>
-    </section>
 
     <section>
       <title>Enable archive file support<indexterm>
@@ -1114,20 +1098,6 @@
         <listitem>
           <para><option>Enabled</option> (default): WinMerge recognizes 7-Zip
           archives.</para>
-
-          <para>WinMerge can access 7-Zip from two installation sources. If you
-          specified one of these methods earlier (for example, during the
-          WinMerge installation), you can change it here:</para>
-
-          <itemizedlist>
-            <listitem>
-              <para>Use stand-alone 7-Zip if available</para>
-            </listitem>
-
-            <listitem>
-              <para>Use local 7-Zip from WinMerge folder</para>
-            </listitem>
-          </itemizedlist>
         </listitem>
 
         <listitem>
