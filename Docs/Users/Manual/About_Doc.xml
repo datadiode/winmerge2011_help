@@ -4,7 +4,7 @@
   <para>This is Help for WinMerge <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="replaceables.xml" xpointer="element(version-full)"/>.</para>
   <para>The <ulink url="https://bitbucket.org/jtuc/winmerge2011/overview">WinMerge&#160;2011</ulink> series is a fork of the original WinMerge application
   published on <ulink url="http://sourceforge.net/projects/winmerge/">SourceForge</ulink> by Thingamahoochie Software.
-  It is an escape from the <ulink url="http://shortlinks.de/ce1j">complex situation</ulink> that exists with respect to WinMerge&#160;2.x.
+  It is an escape from the <ulink url="http://shortlinks.de/i41r">complex situation</ulink> that exists with respect to WinMerge&#160;2.x.
   ATL/MFC dependencies have also been removed so as to enable zero-budget developers to build WinMerge from sources using Visual C++ Express editions.
   </para>
   <section>
