@@ -18,17 +18,17 @@
   <para><cmdsynopsis sepchar=" ">
       <command>WinMergeU</command>
 
-      <arg choice="opt" rep="norepeat"><option>/?</option></arg>
+      <arg><option>/?</option></arg>
     </cmdsynopsis></para>
 
   <para><cmdsynopsis sepchar=" ">
       <command>WinMergeU</command>
 
-      <arg choice="opt" rep="norepeat"><option>/r</option></arg>
+      <arg><option>/r</option></arg>
 
-      <arg choice="opt" rep="norepeat"><option>/e</option></arg>
+      <arg><option>/e</option></arg>
 
-      <arg choice="opt" rep="norepeat"><option>/f</option>
+      <arg><option>/f</option>
       <replaceable>filter</replaceable></arg>
 
       <arg><option>/x</option></arg>
@@ -37,34 +37,34 @@
 
       <arg><option>/s</option></arg>
 
-      <arg choice="opt" rep="norepeat"><option>/ul</option></arg>
+      <arg><option>/ul</option></arg>
 
-      <arg choice="opt" rep="norepeat"><option>/ur</option></arg>
+      <arg><option>/ur</option></arg>
 
-      <arg choice="opt" rep="norepeat"><option>/u</option></arg>
+      <arg><option>/u</option></arg>
 
-      <arg choice="opt" rep="norepeat"><option>/wl</option></arg>
+      <arg><option>/wl</option></arg>
 
-      <arg choice="opt" rep="norepeat"><option>/wr</option></arg>
+      <arg><option>/wr</option></arg>
 
       <arg><option>/minimize</option></arg>
 
       <arg><option>/maximize</option></arg>
 
-      <arg choice="opt" rep="norepeat"><option>/dl</option>
+      <arg><option>/reghive</option>
+      <replaceable>datpath</replaceable></arg>
+
+      <arg><option>/dl</option>
       <replaceable>leftdesc</replaceable></arg>
 
-      <arg choice="opt" rep="norepeat"><option>/dr</option>
+      <arg><option>/dr</option>
       <replaceable>rightdesc</replaceable></arg>
 
-      <arg choice="plain"
-      rep="norepeat"><replaceable>leftpath</replaceable></arg>
+      <arg><replaceable>leftpath</replaceable></arg>
 
-      <arg choice="plain"
-      rep="norepeat"><replaceable>rightpath</replaceable></arg>
+      <arg><replaceable>rightpath</replaceable></arg>
 
-      <arg choice="opt"
-      rep="norepeat"><replaceable>outputpath</replaceable></arg>
+      <arg><replaceable>outputpath</replaceable></arg>
     </cmdsynopsis></para>
 
   <cmdsynopsis sepchar=" ">
@@ -205,6 +205,14 @@
     <listitem>
       <para><option>/maximize</option> starts WinMerge as a maximized
       window.</para>
+    </listitem>
+
+    <listitem>
+      <para><option>/reghive</option> tells WinMerge to maintain its registry
+      settings in the specified file, rather than in the system registry.</para>
+      <note>
+        <para>On Windows XP, this option is limited to a single instance of WinMerge running in an administrator account.</para>
+      </note>
     </listitem>
 
     <listitem>
