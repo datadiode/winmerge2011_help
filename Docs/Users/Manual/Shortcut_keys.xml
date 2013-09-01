@@ -14,7 +14,6 @@
       <thead>
         <row>
           <entry>Keys</entry>
-
           <entry>Function</entry>
         </row>
       </thead>
@@ -22,50 +21,41 @@
       <tbody>
         <row>
           <entry><keycap>Enter</keycap></entry>
-
           <entry>Open selected file or folder</entry>
         </row>
 
         <row>
           <entry><keycap>Backspace</keycap></entry>
-
           <entry>Open parent folder if possible (available only when subfolders
           are not included in compare)</entry>
         </row>
 
         <row>
           <entry><keycap>F5</keycap></entry>
-
           <entry>Rescan folders</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>Home</keycap>
             </keycombo></entry>
-
           <entry>Go to first different file or folder</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>End</keycap>
             </keycombo></entry>
-
           <entry>Go to last different file or folder</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>Enter</keycap>
             </keycombo></entry>
-
           <entry>Go to currently selected item (if scrolled off-screen)</entry>
         </row>
 
@@ -75,7 +65,6 @@
 
               <keycap>Up Arrow</keycap>
             </keycombo></entry>
-
           <entry>Go to previous different file or folder</entry>
         </row>
 
@@ -85,7 +74,6 @@
 
               <keycap>Down Arrow</keycap>
             </keycombo></entry>
-
           <entry>Go to next different file or folder</entry>
         </row>
 
@@ -95,17 +83,14 @@
 
               <keycap>Left Arrow</keycap>
             </keycombo></entry>
-
           <entry>Copy selected items from right to left</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>Right Arrow</keycap>
             </keycombo></entry>
-
           <entry>Copy selected items from left to right</entry>
         </row>
       </tbody>
@@ -119,7 +104,6 @@
       <thead>
         <row>
           <entry>Keys</entry>
-
           <entry>Function</entry>
         </row>
       </thead>
@@ -127,84 +111,86 @@
       <tbody>
         <row>
           <entry><keycap>Esc</keycap></entry>
-
           <entry>Close window (if enabled in options)</entry>
         </row>
 
         <row>
           <entry><keycap>F4</keycap></entry>
-
           <entry>Show line difference</entry>
         </row>
 
         <row>
           <entry><keycap>F5</keycap></entry>
-
           <entry>Refresh</entry>
         </row>
 
         <row>
           <entry><keycap>F6</keycap></entry>
-
           <entry>Change pane (active file)</entry>
         </row>
 
         <row>
           <entry><keycap>F7</keycap></entry>
-
           <entry>Go to previous difference</entry>
         </row>
 
         <row>
           <entry><keycap>F8</keycap></entry>
-
           <entry>Go to next difference</entry>
         </row>
 
         <row>
           <entry><keycap>F9</keycap></entry>
-
           <entry>Merge Mode on or off (toggle)</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>G</keycap>
             </keycombo></entry>
-
           <entry>Go to difference or line</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>Z</keycap>
             </keycombo></entry>
-
           <entry>Undo last action</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>Y</keycap>
             </keycombo></entry>
-
           <entry>Redo previously undone action</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>U</keycap>
             </keycombo></entry>
-
           <entry>Swap panes</entry>
+        </row>
+
+        <row>
+          <entry><keycombo>
+              <keycap>Ctrl</keycap>
+              <keycap>E</keycap>
+            </keycombo></entry>
+          <entry>Match Brace</entry>
+        </row>
+
+        <row>
+          <entry><keycombo>
+              <keycap>Ctrl</keycap>
+              <keycap>Shift</keycap>
+              <keycap>E</keycap>
+            </keycombo></entry>
+          <entry>Select to Brace</entry>
         </row>
       </tbody>
     </tgroup>
@@ -217,7 +203,6 @@
       <thead>
         <row>
           <entry>Keys</entry>
-
           <entry>Function</entry>
         </row>
       </thead>
@@ -226,82 +211,65 @@
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>Home</keycap>
             </keycombo></entry>
-
           <entry>Go to first difference</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>End</keycap>
             </keycombo></entry>
-
           <entry>Go to last difference</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>Enter</keycap>
             </keycombo></entry>
-
           <entry>Go to current difference or select difference</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>Up Arrow</keycap>
             </keycombo></entry>
-
           <entry>Go to previous difference</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>Down Arrow</keycap>
             </keycombo></entry>
-
           <entry>Go to next difference</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>Left Arrow</keycap>
             </keycombo></entry>
-
           <entry>Copy difference from right side to left side</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>Right Arrow</keycap>
             </keycombo></entry>
-
           <entry>Copy difference from left side to right side</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>Alt</keycap>
-
               <keycap>Left Arrow</keycap>
             </keycombo></entry>
-
           <entry>Copy difference from right side to left side and select next
           difference</entry>
         </row>
@@ -309,12 +277,9 @@
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>Alt</keycap>
-
               <keycap>Right Arrow</keycap>
             </keycombo></entry>
-
           <entry>Copy difference from left side to right side and select next
           difference</entry>
         </row>
@@ -329,7 +294,6 @@
       <thead>
         <row>
           <entry>Keys</entry>
-
           <entry>Function</entry>
         </row>
       </thead>
@@ -337,34 +301,28 @@
       <tbody>
         <row>
           <entry><keycap>Up Arrow</keycap></entry>
-
           <entry>Go to previous difference</entry>
         </row>
 
         <row>
           <entry><keycap>Down Arrow</keycap></entry>
-
           <entry>Go to next difference</entry>
         </row>
 
         <row>
           <entry><keycap>Left Arrow</keycap></entry>
-
           <entry>Copy difference from right side to left side</entry>
         </row>
 
         <row>
           <entry><keycap>Right Arrow</keycap></entry>
-
           <entry>Copy difference from left side to right side</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>Alt</keycap>
-
               <keycap>Left Arrow</keycap>
             </keycombo></entry>
 
@@ -375,12 +333,9 @@
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>Alt</keycap>
-
               <keycap>Right Arrow</keycap>
             </keycombo></entry>
-
           <entry>Copy difference from left side to right side and select next
           difference</entry>
         </row>
@@ -395,7 +350,6 @@
       <thead>
         <row>
           <entry>Keys</entry>
-
           <entry>Function</entry>
         </row>
       </thead>
@@ -404,58 +358,46 @@
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>F</keycap>
             </keycombo></entry>
-
           <entry>Find text (opens Find dialog)</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>H</keycap>
             </keycombo></entry>
-
           <entry>Replace text (opens Replace dialog)</entry>
         </row>
 
         <row>
           <entry><keycap>F3</keycap></entry>
-
           <entry>Find next</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Shift</keycap>
-
               <keycap>F3</keycap>
             </keycombo></entry>
-
           <entry>Find previous</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>F3</keycap>
             </keycombo></entry>
-
           <entry>Find selected text in file</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>Shift</keycap>
-
               <keycap>F3</keycap>
             </keycombo></entry>
-
           <entry>Find selected text upwards in file</entry>
         </row>
       </tbody>
@@ -469,7 +411,6 @@
       <thead>
         <row>
           <entry>Keys</entry>
-
           <entry>Function</entry>
         </row>
       </thead>
@@ -478,10 +419,8 @@
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>F2</keycap>
             </keycombo></entry>
-
           <entry>Toggle Bookmark</entry>
         </row>
 
@@ -489,229 +428,183 @@
           <entry><keycombo>
               <keycap>F2</keycap>
             </keycombo></entry>
-
           <entry>Next Bookmark</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Shift</keycap>
-
               <keycap>F2</keycap>
             </keycombo></entry>
-
           <entry>Previous Bookmark</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>Shift</keycap>
-
               <keycap>F2</keycap>
             </keycombo></entry>
-
           <entry>Clear all Bookmarks</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>0</keycap>
             </keycombo></entry>
-
           <entry>Goto Bookmark 0</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>0</keycap>
             </keycombo></entry>
-
           <entry>Toggle Bookmark 0</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>1</keycap>
             </keycombo></entry>
-
           <entry>Goto Bookmark 1</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>1</keycap>
             </keycombo></entry>
-
           <entry>Toggle Bookmark 1</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>2</keycap>
             </keycombo></entry>
-
           <entry>Goto Bookmark 2</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>2</keycap>
             </keycombo></entry>
-
           <entry>Toggle Bookmark 2</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>3</keycap>
             </keycombo></entry>
-
           <entry>Goto Bookmark 3</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>3</keycap>
             </keycombo></entry>
-
           <entry>Toggle Bookmark 3</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>4</keycap>
             </keycombo></entry>
-
           <entry>Goto Bookmark 4</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>4</keycap>
             </keycombo></entry>
-
           <entry>Toggle Bookmark 4</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>5</keycap>
             </keycombo></entry>
-
           <entry>Goto Bookmark 5</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>5</keycap>
             </keycombo></entry>
-
           <entry>Toggle Bookmark 5</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>6</keycap>
             </keycombo></entry>
-
           <entry>Goto Bookmark 6</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>6</keycap>
             </keycombo></entry>
-
           <entry>Toggle Bookmark 6</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>7</keycap>
             </keycombo></entry>
-
           <entry>Goto Bookmark 7</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>7</keycap>
             </keycombo></entry>
-
           <entry>Toggle Bookmark 7</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>8</keycap>
             </keycombo></entry>
-
           <entry>Goto Bookmark 8</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>8</keycap>
             </keycombo></entry>
-
           <entry>Toggle Bookmark 8</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
-
               <keycap>9</keycap>
             </keycombo></entry>
-
           <entry>Goto Bookmark 9</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>9</keycap>
             </keycombo></entry>
-
           <entry>Toggle Bookmark 9</entry>
         </row>
       </tbody>
@@ -725,7 +618,6 @@
       <thead>
         <row>
           <entry>Keys</entry>
-
           <entry>Function</entry>
         </row>
       </thead>
@@ -734,50 +626,40 @@
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>+</keycap>
             </keycombo></entry>
-
           <entry>Increase text size</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>-</keycap>
             </keycombo></entry>
-
           <entry>Decrease text size</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <keycap>*</keycap>
             </keycombo></entry>
-
           <entry>Reset text zoom to default size</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <mousebutton>MouseWheel Up</mousebutton>
             </keycombo></entry>
-
           <entry>Increase text size</entry>
         </row>
 
         <row>
           <entry><keycombo>
               <keycap>Ctrl</keycap>
-
               <mousebutton>MouseWheel Down</mousebutton>
             </keycombo></entry>
-
           <entry>Decrease text size</entry>
         </row>
       </tbody>
