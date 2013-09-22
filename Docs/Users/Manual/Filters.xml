@@ -262,19 +262,20 @@
       characters in rules. However, a comment must always be preceded by one or
       more whitespace (space or tab) characters. To use <code>##</code> as
       characters in a rule, omit the whitespace prefix.</para>
-      <para>The first two required lines of a file filter are:</para>
+      <para>The first two lines which are usually present in a file filter are:</para>
       <variablelist>
         <varlistentry>
-          <term>name</term>
+          <term>name: <replaceable>filter name</replaceable></term>
           <listitem>
-            <para>The filter name that is listed in the Files dialog</para>
+            <para>The filter name that is listed in the Files dialog. This line
+            is required.</para>
           </listitem>
         </varlistentry>
         <varlistentry>
-          <term>def</term>
+          <term>def: <replaceable>type of filtering</replaceable></term>
           <listitem>
-            <para>The type of filtering to be applied. Specify one of these
-            values:</para>
+            <para>The type of filtering to be applied. This line is optional.
+            If present, specify one of these values:</para>
             <variablelist>
               <varlistentry>
                 <term>include</term>
@@ -288,11 +289,6 @@
                 <listitem>
                   <para>Excludes everything except items matching the specified
                   rule.</para>
-                  <para>When you choose the exclude method, you must also add a
-                  <guilabel>d</guilabel> (directory) rule that specifies the
-                  subfolders. It&apos;s usually a good idea to specify all
-                  subfolders, like this:</para>
-                  <screen>d: \\*$ ## Subfolders</screen>
                 </listitem>
               </varlistentry>
             </variablelist>
@@ -303,6 +299,9 @@
               Similarly, <guilabel>exclude</guilabel> does not specify what to
               exclude, it specifies what not to exclude.</para>
             </tip>
+            <para>If you omit this line, WinMerge defaults to
+            <guilabel>exclude</guilabel> filtering, which allows you to combine
+            both inclusion and exclusion rules as described further down.</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -326,6 +325,11 @@
           </listitem>
         </varlistentry>
       </variablelist>
+      <para>The type designator may be prefixed with <guilabel>x</guilabel> to
+      indicate that the rule should cause <guilabel>exclusion</guilabel> of
+      matching items (i.e. act as an <guilabel>include</guilabel> rule in
+      traditional WinMerge terminology), regardless of what type of filtering
+      applies by virtue of the <guilabel>def:</guilabel> line.</para>
       <para>Among the many regexp special characters, the following are
       particularly important in file filter rules:<indexterm>
           <primary>regular expressions</primary>
