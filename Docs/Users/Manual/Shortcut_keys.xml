@@ -192,6 +192,15 @@
             </keycombo></entry>
           <entry>Select to Brace</entry>
         </row>
+
+        <row>
+          <entry><keycombo>
+              <keycap>Alt</keycap>
+              <keycap>Insert</keycap>
+            </keycombo></entry>
+          <entry>Allow RTL aware editing of text selected from a single line</entry>
+        </row>
+
       </tbody>
     </tgroup>
   </table>
