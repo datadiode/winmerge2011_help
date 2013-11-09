@@ -107,7 +107,7 @@
         </indexterm></title>
       <para>Use this syntax for file masks:</para>
       <synopsis>*.[<replaceable>extension</replaceable>][<replaceable>delimiter</replaceable> *.<replaceable>extension</replaceable> ...]</synopsis>
-      <para>Valid delimiters are spaces, commas, colons or semicolons.</para>
+      <para>Valid delimiters are space, comma, pipe, and semicolon.</para>
       <para>A mask with no extension ( <filename>*.</filename> ) selects files
       without any extension, such as <filename>README</filename>.</para>
       <example>
