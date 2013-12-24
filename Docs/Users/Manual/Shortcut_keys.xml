@@ -196,6 +196,14 @@
         <row>
           <entry><keycombo>
               <keycap>Alt</keycap>
+              <keycap>S</keycap>
+            </keycombo></entry>
+          <entry>Set synchronization point</entry>
+        </row>
+
+        <row>
+          <entry><keycombo>
+              <keycap>Alt</keycap>
               <keycap>Insert</keycap>
             </keycombo></entry>
           <entry>Allow RTL aware editing of text selected from a single line</entry>
