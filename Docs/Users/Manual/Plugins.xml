@@ -113,6 +113,15 @@
 				</listitem>
 			</itemizedlist>
 		</section>
+		<section>
+			<title>Associating file transforms with filename extensions</title>
+			<para>
+			<guilabel>Compare As</guilabel> option <guilabel>Tell from filename extension</guilabel>
+			tells WinMerge to select a file transform based on the filename extension.
+			The selection is done as per the rules defined in section <code>FileTransforms</code>
+			of the <filename>Supplement.ini</filename> file. See preceding section on how to locate this file.
+			</para>
+		</section>
 	</section>
 	<section>
 		<title>Extending the set of available plugin scriptlets</title>
