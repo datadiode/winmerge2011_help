@@ -376,13 +376,6 @@
       <para>Later, you might decide that you want to see those messages again.
       If so, click the <guibutton>Reset</guibutton> button to make the message
       boxes display again.</para>
-
-      <note>
-        <para>We recommend that you not suppress messages when updating WinMerge
-        to a newer version. The installer enables their display automatically,
-        but if you don't use the installer, then remember to enable message
-        display by using the <guibutton>Reset</guibutton> button.</para>
-      </note>
     </section>
   </section>
 
