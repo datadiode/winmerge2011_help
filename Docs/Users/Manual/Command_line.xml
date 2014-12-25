@@ -237,7 +237,10 @@
       <para><option>/reghive</option> tells WinMerge to maintain its registry
       settings in the specified file, rather than in the system registry.</para>
       <note>
-        <para>On Windows XP, this option is limited to a single instance of WinMerge running in an administrator account.</para>
+        <para>On Windows Vista and later, this option treats registry settings
+        as read-only unless WinMerge runs with administrator privileges.
+        On Windows XP, this option is limited to a single instance of WinMerge
+        running in an administrator account.</para>
       </note>
     </listitem>
 
