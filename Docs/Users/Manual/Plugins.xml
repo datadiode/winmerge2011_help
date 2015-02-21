@@ -65,7 +65,7 @@
 					</para>
 					<para>
 					An example is <filename>xdoc2txt.wsc</filename>, which pipes files through
-					<ulink url="http://www31.ocn.ne.jp/~h_ishida/xdoc2txt.html">xdoc2txt</ulink>,
+					<ulink url="http://ebstudio.info/home/xdoc2txt.html">xdoc2txt</ulink>,
 					enabling WinMerge to compare the textual content of a large variety of office-type documents.
 					Thanks to cecilyen for suggesting the use of xdoc2txt in WinMerge Open Discussion forum.
 					(As a historical note, the
@@ -91,7 +91,7 @@
 			<itemizedlist>
 				<listitem>
 				<para>
-				Obtain a copy of <ulink url="http://shortlinks.de/8698">d2txt*.zip</ulink>, and extract it into a folder of your choice.
+				Obtain a copy of <ulink url="http://shortlinks.de/n6xi">xd2tx*.zip</ulink>, and extract it into a folder of your choice.
 				</para>
 				</listitem>
 				<listitem>
