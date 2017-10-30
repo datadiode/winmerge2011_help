@@ -56,8 +56,8 @@
 
       <arg><option>/maximize</option></arg>
 
-      <arg><option>/reghive</option>
-      <replaceable>datpath</replaceable></arg>
+      <arg><option>/config</option>
+      <replaceable>filepath</replaceable></arg>
 
       <arg><option>/dl</option>
       <replaceable>leftdesc</replaceable></arg>
@@ -124,10 +124,11 @@
       </indexterm>
 
       <para><option>/f</option> applies a specified filter to restrict the
-      comparison. The filter can be a filemask like <filename><userinput>*.h
-      *.cpp</userinput></filename>, or the name of a file filter like
-      <userinput>XML/HTML Devel</userinput>. Add quotation marks around a filter
-      mask or name that contains spaces.</para>
+      comparison. The filter can be a filemask like <filename><userinput>"*.h
+      *.cpp"</userinput></filename>, or it can use the <userinput>[F]</userinput>
+      prefix notation to specify a file filter name, like
+      <userinput>"[F] XML/HTML Devel"</userinput>. You may omit the quotation
+      marks around a filter mask that contains no spaces.</para>
     </listitem>
 
     <listitem>
@@ -234,20 +235,14 @@
     </listitem>
 
     <listitem>
-      <para><option>/reghive</option> tells WinMerge to maintain its registry
-      settings in the specified file, rather than in the system registry.</para>
-      <note>
-        <para>On Windows Vista and later, this option treats registry settings
-        as read-only unless WinMerge runs with administrator privileges.
-        On Windows XP, this option is limited to a single instance of WinMerge
-        running in an administrator account.</para>
-      </note>
+      <para><option>/config</option> tells WinMerge to maintain its settings
+      in the specified JSON file, rather than in the system registry.</para>
     </listitem>
 
     <listitem>
       <para><option>/dl</option> specifies a description in the left side title
       bar, overriding the default folder or filename text. For example:
-      <userinput>/dl "Version 1.0</userinput>" or <userinput>/dl
+      <userinput>/dl "Version 1.0"</userinput> or <userinput>/dl
       WorkingCopy</userinput>. Use quotation marks around descriptions that
       contain spaces.</para>
     </listitem>
