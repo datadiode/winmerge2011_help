@@ -1068,7 +1068,7 @@ End Function
         <term>Good HOWTO for regexps:</term>
         <listitem>
           <simpara>
-            <ulink url="http://www.amk.ca/python/howto/regex/">http://www.amk.ca/python/howto/regex/</ulink>
+            <ulink url="http://davis.lbl.gov/Manuals/PYTHON/howto/regex.html">http://davis.lbl.gov/Manuals/PYTHON/howto/regex.html</ulink>
           </simpara>
         </listitem>
       </varlistentry>
@@ -1076,7 +1076,7 @@ End Function
         <term>Tutorial:</term>
         <listitem>
           <simpara>
-            <ulink url="http://www.zvon.org/other/PerlTutorial/Output/index.html">http://www.zvon.org/other/PerlTutorial/Output/index.html</ulink>
+            <ulink url="http://www.zvon.org/comp/r/tut-Regexp.html">http://www.zvon.org/comp/r/tut-Regexp.html</ulink>
           </simpara>
         </listitem>
       </varlistentry>
@@ -1084,7 +1084,7 @@ End Function
         <term>PDF quick reference:</term>
         <listitem>
           <simpara>
-            <ulink url="http://www.night-ray.com/regex.pdf">http://www.night-ray.com/regex.pdf</ulink>
+            <ulink url="https://neo.dmcs.pl/pios/Regular_Expression_Quick_Reference.pdf">https://neo.dmcs.pl/pios/Regular_Expression_Quick_Reference.pdf</ulink>
           </simpara>
         </listitem>
       </varlistentry>
