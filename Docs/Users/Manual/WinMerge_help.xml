@@ -5,14 +5,14 @@
     <title>WinMerge <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="replaceables.xml" xpointer="element(version)"/> Help</title>
     <productname>WinMerge</productname>
     <releaseinfo>
-      <emphasis>Revision 1.1</emphasis>
+      <emphasis>Revision 1.7.1</emphasis>
     </releaseinfo>
     <copyright>
-      <year>2004-2011</year>
+      <year>2004-2013</year>
       <holder>Thingamahoochie Software</holder>
     </copyright>
     <copyright>
-      <year>2004-2014</year>
+      <year>2004-2018</year>
       <holder>WinMerge Team</holder>
     </copyright>
     <legalnotice>
@@ -47,6 +47,10 @@
         <firstname>Perry</firstname>
       </author>
       <author>
+        <surname>List</surname>
+        <firstname>Christian</firstname>
+      </author>
+      <author>
         <surname>Neubeck</surname>
         <firstname>Jochen</firstname>
       </author>
@@ -55,12 +59,13 @@
       </author>
     </authorgroup>
   </bookinfo>
-<!-- Note to maintainers:
+  <!-- Note to maintainers:
   Not all doc files are included in this file. There are also fragment files 
   included at the topic level. For example, several files include elements from 
   replaceables.xml. Other fragment file is select-unpacker.xml.
   Please do not delete xml files in this directory unless you know for sure 
-  that they are not used. -->  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="About_Doc.xml"/>
+  that they are not used. -->
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="About_Doc.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Quick_start.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Introduction.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Install.xml"/>
@@ -73,8 +78,8 @@
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Locales.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Plugins.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Filters.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Version_control.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Command_line.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Version_control.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Faq.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Shortcut_keys.xml"/>
   <index id="word_index"/>

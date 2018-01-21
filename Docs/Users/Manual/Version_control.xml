@@ -150,15 +150,15 @@
       <para>When you compare files in TortoiseSVN, TortoiseCVS, or Rational
       ClearCase, you can have the VCS launch WinMerge instead of its native diff
       utility. ClearCase users can configure the content types they want ClearCase
-	  to pass to WinMerge for comparing and/or merging by means of a few clicks in
-	  the Options window. Unfortunately there is no such convenience for other
-	  version control systems, so you&apos;d need to consult the related
-	  documentation to get it working.
-	  A popular approach among version control systems is to allow for specifying a
-	  command line template that contains placeholders for the involved filename paths,
-	  and possibly related textual descriptions. As an example, assuming that WinMerge
-	  resides in folder <filename>C:\WM2011</filename>, the command line template to
-	  use with TortoiseSVN would look like this:</para>
+      to pass to WinMerge for comparing and/or merging by means of a few clicks in
+      the Options window. Unfortunately there is no such convenience for other
+      version control systems, so you&apos;d need to consult the related
+      documentation to get it working.
+      A popular approach among version control systems is to allow for specifying a
+      command line template that contains placeholders for the involved filename paths,
+      and possibly related textual descriptions. As an example, assuming that WinMerge
+      resides in folder <filename>C:\WM2011</filename>, the command line template to
+      use with TortoiseSVN would look like this:</para>
       <para><cmdsynopsis>
           <command>C:\WM2011\WinMergeU.exe -e -x -u -dl %bname -dr %yname %base %mine</command>
         </cmdsynopsis></para>
@@ -179,7 +179,8 @@
             <itemizedlist>
               <listitem>
                 <para>If the file has not been modified, the context menu
-                contains the shortcut, <guimenuitem>Diff with previous version</guimenuitem>. This command compares the checked-out
+                contains the shortcut, <guimenuitem>Diff with previous
+                version</guimenuitem>. This command compares the checked-out
                 version of the file with the previous version that was checked
                 in to the repository.</para>
               </listitem>
@@ -194,7 +195,8 @@
             </itemizedlist>
           </listitem>
           <listitem>
-            <para>Choose either the <guimenuitem>Diff with previous version</guimenuitem> or <guimenuitem>Diff</guimenuitem> shortcut.
+            <para>Choose either the <guimenuitem>Diff with previous
+            version</guimenuitem> or <guimenuitem>Diff</guimenuitem> shortcut.
             The WinMerge window opens, with the target file versions loaded In
             the File Compare window.</para>
           </listitem>
@@ -219,6 +221,62 @@
             the File Compare window.</para>
           </listitem>
         </orderedlist>
+      </example>
+      <example>
+        <title>Visual Studio Team Foundation Server integration</title>
+        <para>You can manually set up WinMerge as the default tool to use for
+        in Visual Studio to show differences in Team Foundation Server (TFS)
+        Other version control systems can be set up in very similar ways.</para>
+        <orderedlist>
+          <listitem>
+            <para>In Visual Studio, navigate to the 
+              <menuchoice>
+                <guimenu>Tools</guimenu>
+                <guimenuitem>Options...</guimenuitem>
+              </menuchoice> menu.</para>
+          </listitem>
+          <listitem>
+            <para>Under <menuchoice>
+                <guimenu>Source Control</guimenu>
+              </menuchoice>, find the<menuchoice>
+                <guimenu> Visual Studio Team Foundation Server</guimenu>
+              </menuchoice> options.</para>
+          </listitem>
+          <listitem>
+            <para>Click the <guimenuitem>Configure User Tools...</guimenuitem> button.</para>
+          </listitem>
+          <listitem>
+            <para>Click the <guimenuitem>Add...</guimenuitem> button.</para>
+          </listitem>
+          <listitem>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="screenshots/tfs_configure.png" format="PNG" />
+              </imageobject>
+            </mediaobject>
+            <para>Type in the following options in the Configure Tool.</para>
+            <itemizedlist>
+              <listitem>
+                <para>Extension: .*</para>
+              </listitem>
+              <listitem>
+                <para>Operation: Compare</para>
+              </listitem>
+              <listitem>
+                <para>Command: {Path to WinMerge}\WinMergeU.exe</para>
+              </listitem>
+              <listitem>
+                <para>Arguments: /e /u /dl %6 /dr %7 %1 %2</para>
+              </listitem>
+            </itemizedlist>
+            <para> Where {Path to WinMerge} is the path were WinMerge is installed.
+            In the above screenshot it is installed to the default installation path 
+            C:\Program Files (x86)\WinMerge\WinMergeU.exe</para>
+            <para> The arguments are described under <xref linkend="Command_line" />.</para>
+          </listitem>
+        </orderedlist>
+        
+        <para>Every time you tell TFS to compare two files, it will now use WinMerge.</para>
       </example>
     </section>
   </section>
