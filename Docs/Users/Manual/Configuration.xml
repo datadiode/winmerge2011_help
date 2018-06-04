@@ -1416,16 +1416,7 @@
     </section>
 
     <section>
-      <title>Detect codepage info for these files: .html .rc .xml</title>
-
-      <important>
-        <para>Uncheck this option in <filename>WinMerge.exe</filename>.
-        Characters conversions can result in lossy conversions and the risk is
-        very high. <filename>WinMerge.exe</filename> can display files only with
-        your current codepage.<!--What option? The one in the Options page? If it should always be unchecked, 
-why is the option there? Also, should we mention WinMergeU.exe when we mention WinMerge.exe,
-or is this understood?--></para>
-      </important>
+      <title>Detect codepage info for these files: .html, .rc, .xml, .po</title>
 
       <itemizedlist>
         <listitem>
@@ -1436,10 +1427,11 @@ or is this understood?--></para>
 
         <listitem>
           <para><option>Enabled</option>: WinMerge detects the codepage for
-          these extensions : <filename class="extension">html</filename>,
-          <filename class="extension">rc</filename> (resource files for VC++)
-          and <filename class="extension">xml</filename>. The detected codepage
-          overrides the setting for the default codepage option.</para>
+          these extensions: <filename class="extension">html</filename>,
+          <filename class="extension">rc</filename> (resource files for VC++),
+          <filename class="extension">xml</filename>,
+          <filename class="extension">po</filename> (GNU gettext Portable Object files).
+          The detected codepage overrides the setting for the default codepage option.</para>
 
           <para>This option is of interest when your documents use a codepage
           that is different from the codepage of your Windows
