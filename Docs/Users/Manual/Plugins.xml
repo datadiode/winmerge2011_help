@@ -68,10 +68,6 @@
 					<ulink url="http://ebstudio.info/home/xdoc2txt.html">xdoc2txt</ulink>,
 					enabling WinMerge to compare the textual content of a large variety of office-type documents.
 					Thanks to cecilyen for suggesting the use of xdoc2txt in WinMerge Open Discussion forum.
-					(As a historical note, the
-					<ulink url='http://freemind.s57.xrea.com/xdocdiffPlugin/en/index.html'>xDocDiff plugin</ulink>
-					demonstrates the impressively impressive amount of programmatic effort that has to be taken
-					to do the same thing with WinMerge&#160;2.)
 					</para>
 				</listitem>
 				<listitem>
@@ -87,11 +83,25 @@
 			</itemizedlist>
 		</section>
 		<section>
-			<title>Steps to get xdoc2txt and MediaInfo operational</title>
+			<title>How to get xdoc2txt operational</title>
+			<para>
+			The WinMerge&#160;2011 installer includes an option to download the xdoc2txt distribution package,
+			alongside with the required Microsoft Visual&#160;C++&#160;2010 redistributable package,
+			and get the relevant files in place. Alternatively, you can locate the required downloads by
+			following the links provided at
+			<ulink url="http://ebstudio.info/home/xdoc2txt.html">http://ebstudio.info/home/xdoc2txt.html</ulink>,
+			and manually arrange things so that WinMerge finds the <filename>xdoc2txt.exe</filename> in a
+			subfolder with name <filename>xdoc2txt</filename> inside the WinMerge program folder.
+			WinMerge&#160;2011 relies on xdoc2txt's <option>-8</option> option to produce UTF-8 output.
+			Therefore, be sure to obtain a Unicode version of xdoc2txt.
+			</para>
+		</section>
+		<section>
+			<title>How to get MediaInfo operational</title>
 			<itemizedlist>
 				<listitem>
 				<para>
-				Obtain a copy of <ulink url="http://shortlinks.de/n6xi">xd2tx*.zip</ulink>, and extract it into a folder of your choice.
+				Obtain the CLI version of <ulink url="http://mediainfo.sourceforge.net/en/Download/Windows">MediaInfo</ulink>, and extract it into a folder of your choice.
 				</para>
 				</listitem>
 				<listitem>
@@ -101,14 +111,7 @@
 				from the menu,
 				go to page <guilabel>System</guilabel>, and look for the <guilabel>Supplement folder</guilabel>.
 				In this folder, look for a file named <filename>Supplement.ini</filename>.
-				In section <code>Environment</code>, edit item <code>xdoc2txt</code> to reflect the folder where the <filename>xdoc2txt.exe</filename> resides.
-				</para>
-				</listitem>
-				<listitem>
-				<para>
-				Do likewise to tell WinMerge where to find the command line version of
-				<ulink url="http://mediainfo.sourceforge.net/en/Download/Windows">MediaInfo</ulink>.
-				Be sure to obtain the CLI version, not the GUI one.
+				In section <code>Environment</code>, edit item <code>MediaInfo_CLI</code> to reflect the folder where the <filename>MediaInfo.exe</filename> resides.
 				</para>
 				</listitem>
 			</itemizedlist>
