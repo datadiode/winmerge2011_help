@@ -31,6 +31,9 @@
       <arg><option>/f</option>
       <replaceable>filter</replaceable></arg>
 
+      <arg><option>/m</option>
+      <replaceable>compare-method</replaceable></arg>
+
       <arg><option>/t</option>
       <replaceable>content-type</replaceable></arg>
 
@@ -129,6 +132,19 @@
       prefix notation to specify a file filter name, like
       <userinput>"[F] XML/HTML Devel"</userinput>. You may omit the quotation
       marks around a filter mask that contains no spaces.</para>
+    </listitem>
+
+    <listitem>
+      <indexterm>
+        <primary>compare method</primary>
+
+        <secondary>applying in command line</secondary>
+      </indexterm>
+
+      <para><option>/m</option> sets the compare method to use for the 
+      comparison. This can be one of the keywords <userinput>Full</userinput>,
+      <userinput>Quick</userinput>, <userinput>Date</userinput>,
+      <userinput>SizeDate</userinput>, <userinput>Size</userinput>.</para>
     </listitem>
 
     <listitem>
