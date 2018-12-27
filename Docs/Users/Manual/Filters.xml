@@ -581,8 +581,10 @@ Pekka Himanen</screen></para>
       <para>
    Early-applied line filters divide up into three categories, as being
    described below in increasing order of expressiveness and computational cost.
-   An early-applied line filter is prefixed with either regexp: or script:, depending on whether it
-   is implemented in terms of a regular expression, or in terms of a scriptlet.
+   An early-applied line filter can either be implemented in terms of a regular expression,
+   in which case it is prefixed with <wordasword>regexp:</wordasword> or <wordasword>*</wordasword>,
+   or in terms of a scriptlet,
+   in which case it is prefixed with <wordasword>script:</wordasword>.
    Line filter rules lacking such prefix are implicitly considered to represent late-applied line filters.
    </para>
       <para>
@@ -633,6 +635,39 @@ Pekka Himanen</screen></para>
       then <code>WonderFlag</code> would make up the regular expression to search for, while <code>SuperMode</code> would appear to the
       right of the injection operator:</para>
       <screen>regexp:/\b(WonderFlag)\b/g&lt;SuperMode</screen>
+      <para>
+      A more symmetric approach to creating lists of synonyms is to not pick one of them and inject it for any occurrences of the others,
+      but rather have the regular expression match all of them and assign it an equivalence class identifier:</para>
+      <screen>*/\b(SuperMode|WonderFlag)\b/g=1</screen>
+      <para>
+      Equivalence class identifiers can range between 0 and 10, with 0 being the default if no value is specified.
+      </para>
+      <note>
+      The <wordasword>*</wordasword> and <wordasword>regexp:</wordasword> prefixes are interchangeable.
+      For users familiar with C/C++, the <wordasword>*</wordasword> prefix may support an intuitive notion of dereferencing a pointer
+      represented by the regular expression, in order to deal with the matched content.
+      </note>
+        </example>
+        <example>
+          <title>Line filters to normalize Unicode codepoint escape sequences</title>
+      <para>
+        Similar syntax as used with equivalence class identifiers enables early-applied line filters to unescape escaped unicode codepoints on the fly.
+        Such filters use a scanf-style format specifier to extract the (hexa)decimal ordinal value from an escape sequence representing a codepoint.</para>
+          <para>When working with JavaScript, you can use a line filter like follows:</para>
+          <screen>*/(\\u[[:xdigit:]]{4})/g=%4x</screen>
+          <para>The Delphi equivalent comprises a set of two line filters to handle both decimal and hexadecimal notation:</para>
+          <screen>*/('?#\d+'?)/g=%d
+*/('?#\$[[:xdigit:]]+'?)/g=%x</screen>
+          <para>Likewise, the following set of line filters handles numeric character references as found in SGML/HTML/XML files:</para>
+          <screen>*/(&amp;#\d+;)/g=%d
+*/(&amp;#x[[:xdigit:]]+;)/g=%x</screen>
+      <para></para>
+      <tip>
+      Combining early-applied line filters can be tricky. For example, applying first the Delphi, then the SGML/HTML/XML set of
+      aforementioned filters could cause the former to trigger on patterns which you'd actually want to be handled by the latter.
+      If you are faced with such situation, you may be able to fix it by reordering the involved line filters.
+      The Filters dialog supports reordering of line filters through drag and drop.
+      </tip>
         </example>
       </section>
       <section id="Filters_PermutiveLineFilters">
