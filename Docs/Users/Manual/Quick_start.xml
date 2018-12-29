@@ -72,6 +72,11 @@
             <phrase>Select Files or Folders window</phrase>
           </textobject>
         </mediaobject>
+        <para></para>
+        <tip>
+          <para>The filetype icons shown in the <guilabel>Left</guilabel> and <guilabel>Right</guilabel> fields are drag &amp; drop sensitive,
+          and in the event of it will exchange field contents with one another.</para>
+        </tip>
       </listitem>
       <listitem>
         <para>In the <guilabel>Left</guilabel> and <guilabel>Right</guilabel>
